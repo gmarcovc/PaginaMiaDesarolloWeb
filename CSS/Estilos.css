@@ -4,7 +4,7 @@
     left:0;
     height: 8%;
     width: 100%;
-    background-color: #496F8D;
+    background-color: #8d7049;
     color: white;
     padding-left: 15px;
 
@@ -42,17 +42,17 @@
     left:0;
     height: 81%;
     width: 20%;
-    background-color: #ffde7c;
+    background-color: #df5722;
     color: black;
 }
 
 #contenido{
     position: absolute;
     top:12%;
-    left:20%;
+    left:22%;
     height: 81%;
     width: 80%;
-    background-color:rgb(61, 129, 255);
+    background-color:white;
     color: black;
     overflow: auto;
 }
@@ -63,7 +63,7 @@
     left:0%;
     height: 7%;
     width: 100%;
-    background-color:aquamarine;
+    background-color:orange;
     color: black;
     text-align: center;
     vertical-align: middle;
@@ -74,21 +74,16 @@
 }
 
 #encabezadoTabla{
-    font-size: 20px;
-    background-color: navy;
-    color: yellow;
+    font-size: 45px;
+    background-color: rgb(209, 6, 6);
+    color: white;
 }
 
 #tablaResumen tr{
-    font-size: 25px;
+    font-size: 35px;
 }
 
-#tablaResumen tr:nth-child(odd){
-    background-color: coral;
+#tablaResumen tr{
+    background-color: rgb(10, 252, 131);
     color:white;
-}
-
-#tablaResumen tr:nth-child(even){
-    background-color: white;
-    color: darkmagenta;
 }
